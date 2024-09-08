@@ -1,6 +1,6 @@
 {
 	"intro": {
-		"start": "const Andrew = ( name, passion ) =>",
+		"start": "The world is evolving",
 		"end": "Hello, my name is",
 		"speed": 60,
 		"deletionSpeed": 80,
@@ -11,11 +11,11 @@
 	},
 
 	"header": {
-		"name": "Andrew Nelson.",
-		"usp": "I design and build meaningful experiences."
+		"name": "Delphina Tonny.",
+		"usp": "Building cardiovascular interventions and public health."
 	},
 
-	"paragraph": "I am a digital polymath — a constantly evolving digital creator driven by a passion for lifelong learning and the desire to leave a lasting impact.",
+	"paragraph": "I am a research scientist — a constantly evolving cardiovascular researcher by a passion for lifelong learning and the desire to leave a lasting impact.",
 
 	"buttons": {
 		"primary": {
