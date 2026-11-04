@@ -1,0 +1,1 @@
+{"name":"@portfolio/cms","private":true,"scripts":{"dev":"next dev -p 3001","build":"next build","start":"next start -p 3001"},"dependencies":{"@portfolio/content":"*","@portfolio/ui":"*","lucide-react":"^0.468.0","next":"^16.0.0","react":"^19.2.0","react-dom":"^19.2.0","react-easy-crop":"^6.2.4"}}

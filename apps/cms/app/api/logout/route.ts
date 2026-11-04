@@ -1,0 +1,1 @@
+import {NextResponse} from 'next/server';import {sameOrigin} from '../../auth';export async function POST(req:Request){if(!sameOrigin(req))return new Response(null,{status:403});const r=NextResponse.json({ok:true});r.cookies.delete('cms_session');return r;}

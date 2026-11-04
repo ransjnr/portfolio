@@ -1,0 +1,23 @@
+{
+  "name": "research-portfolio",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "services/*"
+  ],
+  "scripts": {
+    "dev": "concurrently -n api,portfolio,cms -c cyan,green,magenta \"npm run dev -w @portfolio/api\" \"npm run dev -w @portfolio/web\" \"npm run dev -w @portfolio/cms\"",
+    "build": "npm run build -w @portfolio/web && npm run build -w @portfolio/cms",
+    "typecheck": "tsc --noEmit -p apps/portfolio && tsc --noEmit -p apps/cms",
+    "test": "node --test services/content-api/src/*.test.mjs",
+    "test:smoke": "node scripts/smoke.mjs"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "typescript": "^5.9.3",
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0"
+  }
+}

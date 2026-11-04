@@ -1,0 +1,1 @@
+{"name":"@portfolio/content","version":"0.0.1","type":"module","exports":{".":"./index.ts","./seed":"./seed.json"}}

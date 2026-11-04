@@ -1,0 +1,8 @@
+import {z} from 'zod';
+const text=z.string().max(20000);const url=z.union([z.literal(''),z.url().refine(v=>{try{return ['https:','http:'].includes(new URL(v).protocol)}catch{return false}},'Use an HTTP(S) URL')]);
+const media=z.string().regex(/^\/media\/[a-f0-9-]{36}\/[^/?#]+$/);
+const asset=z.union([url,media]);
+const entry=z.object({id:text,title:text.min(1),description:text,venue:text,year:text,url:asset,image:asset,linkLabel:text.optional(),secondaryUrl:asset.optional(),secondaryLabel:text.optional()});
+const newsEntry=z.object({id:z.string().regex(/^[a-z0-9][a-z0-9-]{0,119}$/).optional(),title:text.min(1),date:text,summary:text.optional(),content:z.string().max(100000).optional(),image:asset.optional(),url:asset.optional(),linkLabel:text.optional(),attachment:asset.optional(),attachmentLabel:text.optional()});
+const timeline=z.object({title:text,organization:text,date:text,description:text.optional()});
+export const schema=z.object({profile:z.object({name:text.min(1),role:text,institution:text,bio:text,email:z.union([z.literal(''),z.email()]),portrait:asset,logo:asset.default(''),cvUrl:asset,github:url,linkedin:url,googleScholar:url.default('')}),interests:z.array(text).max(50),education:z.array(timeline).max(100),experience:z.array(timeline).max(100),news:z.array(newsEntry).max(200).refine(items=>{const ids=items.map(n=>n.id).filter(Boolean);return new Set(ids).size===ids.length},'Each news article must have a unique ID'),publications:z.array(entry).max(500),talks:z.array(entry).max(500),tutorials:z.array(entry).max(500),projects:z.array(entry).max(500),skills:z.array(entry).max(100).default([]),startups:z.array(entry).max(100).default([]),grants:z.array(entry).max(100).default([]),achievements:z.array(entry).max(100).default([])});

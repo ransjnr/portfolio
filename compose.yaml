@@ -1,0 +1,39 @@
+services:
+  content-api:
+    build:
+      context: .
+      target: api
+    environment:
+      ADMIN_API_TOKEN: ${ADMIN_API_TOKEN:?Set ADMIN_API_TOKEN}
+    volumes:
+      - content:/data
+    restart: unless-stopped
+  portfolio:
+    build:
+      context: .
+      target: portfolio
+    ports:
+      - "3000:3000"
+    environment:
+      CONTENT_API_URL: http://content-api:4000
+    depends_on:
+      - content-api
+    restart: unless-stopped
+  cms:
+    build:
+      context: .
+      target: cms
+      args:
+        NEXT_PUBLIC_PORTFOLIO_URL: ${PORTFOLIO_URL:-http://localhost:3000}
+    ports:
+      - "3001:3001"
+    environment:
+      CONTENT_API_URL: http://content-api:4000
+      ADMIN_API_TOKEN: ${ADMIN_API_TOKEN:?Set ADMIN_API_TOKEN}
+      CMS_PASSWORD: ${CMS_PASSWORD:?Set CMS_PASSWORD}
+      CMS_SESSION_SECRET: ${CMS_SESSION_SECRET:?Set CMS_SESSION_SECRET}
+    depends_on:
+      - content-api
+    restart: unless-stopped
+volumes:
+  content:

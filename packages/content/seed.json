@@ -1,0 +1,600 @@
+{
+  "profile": {
+    "name": "Ransford Oppong",
+    "role": "Machine Learning Research Scientist",
+    "institution": "Université Paris-Saclay, France",
+    "bio": "I am a biomedical engineer and machine learning researcher working across medical imaging, embedded AI, and intelligent sensing. At Université Paris-Saclay and Lab-STICC, IMT Atlantique, I develop hardware-aware medical image segmentation and learned wireless communication systems through the FEF-AI4SD project. My work also spans assistive technologies, multimodal learning, and full-stack software engineering.",
+    "email": "oppong.rans@gmail.com",
+    "portrait": "",
+    "cvUrl": "",
+    "github": "https://github.com/ransjnr",
+    "linkedin": "",
+    "googleScholar": ""
+  },
+  "interests": [
+    "Medical Image Segmentation",
+    "Embedded & Edge AI",
+    "Multimodal Learning",
+    "Intelligent Sensing & Assistive Technologies"
+  ],
+  "education": [
+    {
+      "title": "BSc Biomedical Engineering",
+      "organization": "Kwame Nkrumah University of Science and Technology",
+      "date": "January 2021 - September 2025",
+      "description": "GPA: 3.61/4.00. Thesis: Multi-Stage Deep Learning Framework for Thyroid Nodule Segmentation in Low-Resource Ultrasound Imaging."
+    }
+  ],
+  "experience": [
+    {
+      "title": "Machine Learning Research Scientist",
+      "organization": "Université Paris-Saclay, France · FEF-AI4SD",
+      "date": "September 2026 - Present",
+      "description": "Developed HALO-nnUAP, an automated hardware- and dataset-aware framework for 2D, 3D, and 4D medical image segmentation. Established multi-dataset evaluation, cross-validation, computational complexity analysis, GPU memory profiling, inference latency measurement, and MLflow-based experiment tracking. Developed computational spectroscopy models using FFT and power spectral density analysis. Supervisor: Professor Daniel Adjei."
+    },
+    {
+      "title": "Research Intern - Embedded AI",
+      "organization": "Lab-STICC, IMT Atlantique, Brest, France · FEF-AI4SD",
+      "date": "September 2026 - Present",
+      "description": "Designed MLPARE-Com for joint physical- and link-layer optimization using learned transceiver models, hybrid channel estimation, and Q-learning-driven retransmission policies. Developed ESP32-S3 firmware for neural inference, real-time channel sensing, and adaptive ACK/NACK control, with an evaluation pipeline spanning MIMO simulation and embedded deployment. Supervisor: Professor Derek Asiedu."
+    },
+    {
+      "title": "Vice President, Vision Intelligence (Engineering)",
+      "organization": "Auphanim Technologies and Sciences · Kumasi, Ghana",
+      "date": "June 2026 - Present",
+      "description": "Designed an edge-deployed computer vision system that monitors RTSP/HLS camera feeds and autonomously escalates verified threats."
+    },
+    {
+      "title": "Co-Founder & Chief Technology Officer",
+      "organization": "Mentismint · Accra, Ghana",
+      "date": "October 2025 - Present",
+      "description": "Built and shipped a React Native personal finance app with Expo, Expo Router, and EAS. Delivered full-stack features across a microservice backend, a typed TypeScript client/service layer, and a Groq AI integration."
+    },
+    {
+      "title": "Research Assistant - Ghana National Service Scheme",
+      "organization": "Quantum Computing and Assistive Technologies Lab, KNUST",
+      "date": "October 2025 - October 2026",
+      "description": "Led Deafly Health, an AI-native multimodal emotion recognition engine for Ghanaian Sign Language communication. Designed the Spatio-Temporal Emotion Graph Network (ST-EGN), achieving 84.6% cross-modal emotion detection accuracy on preliminary datasets. Supervisor: Professor Jerry John Kponyo."
+    },
+    {
+      "title": "Research Assistant - Ghana National Service Scheme",
+      "organization": "Responsible AI Lab, KNUST",
+      "date": "October 2025 - October 2026",
+      "description": "Contributed to MRI-CT cross-modality translation, implementing and evaluating deep learning methods for structurally faithful synthetic CT images in resource-limited settings. Supervisor: Professor Jerry John Kponyo."
+    },
+    {
+      "title": "Research Assistant - Photonic Biosensing",
+      "organization": "Quantum Computing and Assistive Technologies Lab, KNUST",
+      "date": "February 2026 - August 2026",
+      "description": "Designed a dual-mode GQD-silicon nitride biosensor with a simulated IL-6 detection limit of 0.02 ng/mL. Developed 3-qubit IBM Qiskit models and simulated multiplexed PCT, CRP, and IL-6 sensing. Supervisor: Professor Jerry John Kponyo."
+    },
+    {
+      "title": "Biomedical Engineering Student Researcher",
+      "organization": "Bioinstrumentation Lab, KNUST",
+      "date": "January 2025 - September 2025",
+      "description": "Designed HALO-UNet for thyroid nodule segmentation, achieving a 71% Dice score on real-world ultrasound datasets. Developed a hardware-aware optimization pipeline with more than 70% faster inference under low-resource constraints, validated across datasets and architectural ablations, and deployed on Hugging Face Inference Endpoints. Supervisor: Dr. Isaac Acquah."
+    },
+    {
+      "title": "Build Student Consultant",
+      "organization": "The Build Fellowship · Remote",
+      "date": "March 2025 - May 2025",
+      "description": "Optimized T cell differentiation using full factorial Design of Experiments. Developed a scalable suspension culture process with 18% lower production costs, over 90% cell viability, and batch variability reduced from 25% to 12%. Validated the protocol through three GMP-like runs. Supervisor: Claire Wang."
+    },
+    {
+      "title": "Lead Software Engineer",
+      "organization": "Masara Consult · Birmingham, United Kingdom",
+      "date": "April 2024 - April 2025",
+      "description": "Launched an AI-powered multi-curriculum e-learning platform reaching 1,000+ users in its first month. Built Node.js and SQL RESTful services for user management, course delivery, and analytics."
+    },
+    {
+      "title": "Lead Product Engineer",
+      "organization": "BUILD SCITECH · Kumasi, Ghana",
+      "date": "March 2023 - Present",
+      "description": "Leads product development across fintech, healthtech, agritech, and e-commerce. Established a technology expo community of 600+ African student developers, founders, and employers."
+    },
+    {
+      "title": "Startup Founder - Agropremium and ObstaMed",
+      "organization": "African German Entrepreneurship Academy · University of Leipzig",
+      "date": "September 2023 - September 2025",
+      "description": "Developed Agropremium, a web-based global trade platform for fair-trade logistics, and ObstaMed, a sensor-integrated assistive mobility cane. Supported by a €15,000+ travel grant."
+    },
+    {
+      "title": "Technical Lead",
+      "organization": "IEEE Instrumentation and Measurement Society, KNUST Chapter",
+      "date": "January 2024 - September 2025",
+      "description": "Led mentorship and innovation programs, guiding students through instrumentation, embedded systems, and intelligent sensing workshops and conferences."
+    },
+    {
+      "title": "Mentor - The Next Generation of Tech Giants",
+      "organization": "BUILD SCITECH",
+      "date": "October 2023 - Present",
+      "description": "Established a Technology Transfer Program and supervised over 10 student-led research projects in health, climate, biotechnology, and energy. Facilitated technical workshops on agentic system development."
+    },
+    {
+      "title": "Vice President, Projects and Innovation",
+      "organization": "ENACTUS KNUST",
+      "date": "September 2023 - September 2024",
+      "description": "Led the Projects & Innovation Division across 150+ members and seven projects, overseeing technical design and community pilots involving AI, IoT, and automation."
+    },
+    {
+      "title": "Head of Trade and Technology",
+      "organization": "Biomedical Engineering Students’ Society, KNUST",
+      "date": "September 2023 - September 2024",
+      "description": "Led 10+ technical workshops in AI, IoT, and 3D printing for 200+ students, supporting academia-industry collaboration."
+    }
+  ],
+  "news": [
+    {
+      "title": "Working on hardware-aware medical image segmentation at Université Paris-Saclay through FEF-AI4SD.",
+      "date": "September 2026",
+      "id": "paris-saclay-research",
+      "summary": "Hardware-aware medical AI at Université Paris-Saclay",
+      "content": "I joined Université Paris-Saclay in September 2026 as a Machine Learning Research Scientist through the France-Ghana FEF-AI4SD project. My research focuses on making medical image segmentation aware of both the dataset and the hardware on which it runs.\n\nMy work includes HALO-nnUAP, an automated framework for 2D, 3D, and 4D medical image segmentation. The experimental pipeline covers evaluation across multiple datasets, cross-validation, computational complexity analysis, GPU memory profiling, inference latency, and reproducible experiment tracking with MLflow.\n\nI also develop computational spectroscopy models using FFT and power spectral density analysis to characterize wavelength-dependent spectral signatures. This work is supervised by Professor Daniel Adjei.",
+      "image": "",
+      "url": "",
+      "linkLabel": "",
+      "attachment": "",
+      "attachmentLabel": ""
+    },
+    {
+      "title": "Developing embedded AI and learned communication systems at Lab-STICC, IMT Atlantique.",
+      "date": "September 2026",
+      "id": "embedded-ai-lab-sticc",
+      "summary": "Embedded AI and learned communications at Lab-STICC",
+      "content": "In September 2026, I began a Research Intern role in Embedded AI at Lab-STICC, IMT Atlantique, in Brest, France, through the France-Ghana FEF-AI4SD project.\n\nI am developing MLPARE-Com, an integrated machine learning framework for joint physical- and link-layer optimization. It combines learned transceiver models, hybrid channel estimation algorithms, and Q-learning-driven retransmission policies.\n\nThe embedded testbed uses ESP32-S3 firmware for neural inference, real-time channel sensing, and adaptive ACK/NACK-based reliability control. The evaluation pipeline spans MIMO channel simulation, model training, embedded deployment, and analysis of communication reliability, latency, and computational performance. This work is supervised by Professor Derek Asiedu.",
+      "image": "",
+      "url": "",
+      "linkLabel": "",
+      "attachment": "",
+      "attachmentLabel": ""
+    },
+    {
+      "title": "Presented emotion-aware embedding fusion for mental health counselling at KONVENS 2026 in Hamburg.",
+      "date": "2026",
+      "id": "konvens-2026",
+      "summary": "Presenting emotion-aware embedding fusion at KONVENS 2026",
+      "content": "I presented “Emotion-Aware Embedding Fusion in Large Language Models for Intelligent Response Generation in Mental Health Counselling” as a poster at KONVENS 2026 in Hamburg, Germany.\n\nThe work was co-authored with K. Dotse, A. A. Adjei, J. Arthur, V. Kasore, A. B. Kponyo, J. Agyemang, and J. J. Kponyo.\n\nThe conference paper is available through the link below.",
+      "image": "",
+      "url": "https://www.korpuslab.uni-hamburg.de/en/konvens2026/34.pdf",
+      "linkLabel": "Read the conference paper",
+      "attachment": "",
+      "attachmentLabel": ""
+    },
+    {
+      "title": "Released a preprint on certified tool execution for MCP-based AI agents.",
+      "date": "October 2026",
+      "id": "certified-tool-execution",
+      "summary": "A preprint on certified tool execution for AI agents",
+      "content": "My October 2026 preprint is titled “Certified Tool Execution Framework for MCP-Based AI Agents: Provably Secure Defense Against Tool Poisoning and Credential Theft.”\n\nThe manuscript addresses tool execution security in MCP-based AI agents, with a focus on tool poisoning and credential theft.\n\nRead the preprint using DOI 10.20944/preprints202610.2580.v1, linked below.",
+      "image": "",
+      "url": "https://doi.org/10.20944/preprints202610.2580.v1",
+      "linkLabel": "Read the preprint",
+      "attachment": "",
+      "attachmentLabel": ""
+    },
+    {
+      "title": "Presented HALO-UNet at TWEEK in Kumasi and ObstaMed at iN4iN in Leipzig.",
+      "date": "2025",
+      "id": "halo-unet-obstamed-presentations",
+      "summary": "Sharing HALO-UNet and ObstaMed in Kumasi and Leipzig",
+      "content": "In 2025, I presented two projects in medical AI and assistive technologies.\n\nAt TWEEK 2025 in Kumasi, Ghana, I gave oral and poster presentations on “HALO-UNet: A Lightweight Multi-Stage Deep Learning Framework for Thyroid Nodule Segmentation in Low-Resource Ultrasound Imaging,” co-authored with A. J. Anokye and I. Acquah.\n\nAt iN4iN 2025 in Leipzig, Germany, I gave an oral presentation on “Obstamed: Smart Obstacle Detection Mobility Aid for the Visually Impaired,” co-authored with G. S. Adjei.",
+      "image": "",
+      "url": "",
+      "linkLabel": "",
+      "attachment": "",
+      "attachmentLabel": ""
+    }
+  ],
+  "publications": [
+    {
+      "id": "emotion-fusion",
+      "title": "Emotion-Aware Embedding Fusion in Large Language Models for Intelligent Response Generation in Mental Health Counselling",
+      "description": "Oppong, R., Dotse, K., Adjei, A. A., Arthur, J., Kasore, V., Kponyo, A. B., Agyemang, J., Kponyo, J. J. KONVENS 2026, Hamburg, Germany. Accepted and presented as a poster.",
+      "venue": "",
+      "year": "2026",
+      "url": "https://www.korpuslab.uni-hamburg.de/en/konvens2026/34.pdf",
+      "image": "",
+      "linkLabel": "[Paper]",
+      "secondaryUrl": "",
+      "secondaryLabel": ""
+    },
+    {
+      "id": "obstamed",
+      "title": "Obstamed: Smart Obstacle Detection Mobility Aid for the Visually Impaired",
+      "description": "Oppong, R., Adjei G. S. iN4iN 2025, Leipzig, Germany. Oral presentation. Manuscript.",
+      "venue": "",
+      "year": "2025",
+      "url": "",
+      "image": "",
+      "linkLabel": "",
+      "secondaryUrl": "",
+      "secondaryLabel": ""
+    },
+    {
+      "id": "halo-unet",
+      "title": "HALO-UNet: A Lightweight Multi-Stage Deep Learning Framework for Thyroid Nodule Segmentation in Low-Resource Ultrasound Imaging",
+      "description": "Oppong, R., Anokye, A. J., Acquah, I. TWEEK 2025, Kumasi, Ghana. Oral and poster presentation. Manuscript.",
+      "venue": "",
+      "year": "2025",
+      "url": "",
+      "image": "",
+      "linkLabel": "",
+      "secondaryUrl": "",
+      "secondaryLabel": ""
+    },
+    {
+      "id": "certified-tools",
+      "title": "Certified Tool Execution Framework for MCP-Based AI Agents: Provably Secure Defense Against Tool Poisoning and Credential Theft",
+      "description": "Oppong, R. Preprint. October 2026. DOI: 10.20944/preprints202610.2580.v1.",
+      "venue": "",
+      "year": "2026",
+      "url": "https://doi.org/10.20944/preprints202610.2580.v1",
+      "image": "",
+      "linkLabel": "[Preprint]",
+      "secondaryUrl": "",
+      "secondaryLabel": ""
+    }
+  ],
+  "projects": [
+    {
+      "id": "mlpare-com",
+      "title": "MLPARE-Com: A Learned Communication Protocol for PHY and LINK Layers",
+      "description": "An integrated machine learning framework for physical- and link-layer optimization, combining variational autoencoder-based transceiver models, ML-based channel estimation, and reinforcement learning-based retransmission policies.",
+      "venue": "Python, C++, Embedded C, CMake, Assembly, ESP-IDF/NOW/SDR, ESP32S3/C5 · Proprietary",
+      "year": "",
+      "url": "",
+      "image": "",
+      "linkLabel": "",
+      "secondaryUrl": "",
+      "secondaryLabel": ""
+    },
+    {
+      "id": "halo-nnuap",
+      "title": "HALO-nnUAP: Automated, Hardware-Aware Medical Image Segmentation",
+      "description": "A hardware-aware segmentation framework spanning HALO-UNet, HALO-Former, and HALO-Temporal. Pilot HALO-UNet results across four CT/MRI datasets show up to 26.5% lower inference latency than nnU-Net.",
+      "venue": "Python, PyTorch, nnU-Net, MLflow, CUDA, NVIDIA RTX 3500 Ada · Proprietary",
+      "year": "",
+      "url": "",
+      "image": "",
+      "linkLabel": "",
+      "secondaryUrl": "",
+      "secondaryLabel": ""
+    },
+    {
+      "id": "somax",
+      "title": "Somax iQ-T1: Mobile AI Ultrasound for Point-of-Care Thyroid Diagnostics",
+      "description": "A mobile ultrasound system built around HALO-UNet for thyroid diagnostics. Awarded an $8,000 pre-seed grant and the Mansa-to-Mansa NVIDIA Jetson Orin Nano project challenge ultimate prize.",
+      "venue": "Butterfly iQ+, HALO-UNet, TensorRT, FastAPI, Azure ML, React Native",
+      "year": "",
+      "url": "http://mysonotechnologies.com",
+      "image": "",
+      "linkLabel": "Visit site",
+      "secondaryUrl": "https://drive.google.com/file/d/1djD9jJdY1xPIVeXhjXdMXjb_mqttDfMd/view?usp=sharing",
+      "secondaryLabel": "Slides"
+    },
+    {
+      "id": "peerbooking",
+      "title": "peerbooking: An On-Campus Marketplace for Peer Support",
+      "description": "A role-based peer learning marketplace with booking, scheduling, chat, student/tutor onboarding, and session management. Reached 1,000+ active beta users across one campus in four weeks.",
+      "venue": "Next.js, Clerk, Convex, Node.js, REST APIs, Tailwind CSS, PWA",
+      "year": "",
+      "url": "https://pollix.online",
+      "image": "",
+      "linkLabel": "Visit site",
+      "secondaryUrl": "",
+      "secondaryLabel": ""
+    },
+    {
+      "id": "strata",
+      "title": "Strata: A Better Alternative to Middleware",
+      "description": "An open-source, type-safe TypeScript request pipeline that models execution as a dependency graph. A topological scheduler enables parallel execution, circular dependency detection, and Next.js integration.",
+      "venue": "TypeScript, tsup, Vitest, Supertest · Open source",
+      "year": "",
+      "url": "https://github.com/ransjnr/strata",
+      "image": "",
+      "linkLabel": "GitHub",
+      "secondaryUrl": "https://www.npmjs.com/package/@ransjnr/strata",
+      "secondaryLabel": "npm"
+    }
+  ],
+  "talks": [
+    {
+      "id": "konvens-talk",
+      "title": "Emotion-Aware Embedding Fusion for Mental Health Counselling",
+      "description": "KONVENS, Hamburg, Germany · Poster presentation",
+      "venue": "",
+      "year": "2026",
+      "url": "https://www.korpuslab.uni-hamburg.de/en/konvens2026/34.pdf",
+      "image": "",
+      "linkLabel": "",
+      "secondaryUrl": "",
+      "secondaryLabel": ""
+    },
+    {
+      "id": "obstamed-talk",
+      "title": "ObstaMed: Smart Obstacle Detection Mobility Aid",
+      "description": "iN4iN, Leipzig, Germany · Oral presentation",
+      "venue": "",
+      "year": "2025",
+      "url": "",
+      "image": "",
+      "linkLabel": "",
+      "secondaryUrl": "",
+      "secondaryLabel": ""
+    },
+    {
+      "id": "halo-talk",
+      "title": "HALO-UNet for Thyroid Nodule Segmentation",
+      "description": "TWEEK, Kumasi, Ghana · Oral and poster presentation",
+      "venue": "",
+      "year": "2025",
+      "url": "",
+      "image": "",
+      "linkLabel": "",
+      "secondaryUrl": "",
+      "secondaryLabel": ""
+    }
+  ],
+  "tutorials": [
+    {
+      "id": "certified-tool-article",
+      "title": "Certified Tool Execution for MCP-Based AI Agents",
+      "description": "Preprint · October 2026",
+      "venue": "",
+      "year": "2026",
+      "url": "https://doi.org/10.20944/preprints202610.2580.v1",
+      "image": "",
+      "linkLabel": "",
+      "secondaryUrl": "",
+      "secondaryLabel": ""
+    }
+  ],
+  "skills": [
+    {
+      "id": "skill-1",
+      "title": "Programming & Systems Engineering",
+      "description": "Python, Modern C++ (C++14/17/20), C, TypeScript, JavaScript, CMake, Async I/O, RAII",
+      "venue": "",
+      "year": "",
+      "url": "",
+      "image": "",
+      "linkLabel": "",
+      "secondaryUrl": "",
+      "secondaryLabel": ""
+    },
+    {
+      "id": "skill-2",
+      "title": "Computer Vision & Medical AI",
+      "description": "OpenCV, MONAI, SimpleITK, NiBabel, MedT, nnUNet, YOLOv26 Ultralytics",
+      "venue": "",
+      "year": "",
+      "url": "",
+      "image": "",
+      "linkLabel": "",
+      "secondaryUrl": "",
+      "secondaryLabel": ""
+    },
+    {
+      "id": "skill-3",
+      "title": "Embedded Systems & Firmware",
+      "description": "ESP32, ESP-IDF, FreeRTOS, Raspberry Pi, NVIDIA Jetson, ARM, Arduino, Embedded C/C++, HALs, ISRs",
+      "venue": "",
+      "year": "",
+      "url": "",
+      "image": "",
+      "linkLabel": "",
+      "secondaryUrl": "",
+      "secondaryLabel": ""
+    },
+    {
+      "id": "skill-4",
+      "title": "Signal Processing & Intelligent Sensing",
+      "description": "FFT, power spectral density, frequency-domain analysis",
+      "venue": "",
+      "year": "",
+      "url": "",
+      "image": "",
+      "linkLabel": "",
+      "secondaryUrl": "",
+      "secondaryLabel": ""
+    },
+    {
+      "id": "skill-5",
+      "title": "Edge AI & Neural Network Optimization",
+      "description": "PyTorch, TensorFlow, ONNX, ONNX Runtime, NVIDIA TensorRT, ExecuTorch, TensorFlow Lite",
+      "venue": "",
+      "year": "",
+      "url": "",
+      "image": "",
+      "linkLabel": "",
+      "secondaryUrl": "",
+      "secondaryLabel": ""
+    },
+    {
+      "id": "skill-6",
+      "title": "Hardware Acceleration & Heterogeneous Computing",
+      "description": "NVIDIA CUDA, cuDNN, GPU profiling, CPU-GPU workload partitioning, ARM NEON SIMD, Tensor Cores, ONNX graph optimization",
+      "venue": "",
+      "year": "",
+      "url": "",
+      "image": "",
+      "linkLabel": "",
+      "secondaryUrl": "",
+      "secondaryLabel": ""
+    },
+    {
+      "id": "skill-7",
+      "title": "Software Engineering",
+      "description": "React, Next.js, React Native, Node.js, FastAPI, CI/CD, Docker, Unix/Linux, Git, Vim/Emacs/Nano, OOP, microservices",
+      "venue": "",
+      "year": "",
+      "url": "",
+      "image": "",
+      "linkLabel": "",
+      "secondaryUrl": "",
+      "secondaryLabel": ""
+    },
+    {
+      "id": "skill-8",
+      "title": "Mathematical Computing & Numerical Algorithms",
+      "description": "Probability and statistical inference, Bayesian estimation, computational complexity analysis, time and space complexity, error propagation, sensitivity analysis",
+      "venue": "",
+      "year": "",
+      "url": "",
+      "image": "",
+      "linkLabel": "",
+      "secondaryUrl": "",
+      "secondaryLabel": ""
+    },
+    {
+      "id": "skill-9",
+      "title": "Languages",
+      "description": "English (Advanced)",
+      "venue": "",
+      "year": "",
+      "url": "",
+      "image": "",
+      "linkLabel": "",
+      "secondaryUrl": "",
+      "secondaryLabel": ""
+    }
+  ],
+  "startups": [
+    {
+      "id": "mentismint",
+      "title": "Mentismint",
+      "description": "Co-Founder & Chief Technology Officer. Built and shipped a React Native personal finance app using Expo, with a microservice backend, a typed TypeScript client/service layer, and an integrated Groq AI layer.",
+      "venue": "Accra, Ghana",
+      "year": "October 2025 - Present",
+      "url": "",
+      "image": "",
+      "linkLabel": "",
+      "secondaryUrl": "",
+      "secondaryLabel": ""
+    },
+    {
+      "id": "build-scitech",
+      "title": "BUILD SCITECH",
+      "description": "Lead Product Engineer. Leads product development across fintech, healthtech, agritech, and e-commerce, with work spanning communications platforms, consultancy, and technology transfer. Established a technology expo community of 600+ African student developers, founders, and employers.",
+      "venue": "Kumasi, Ghana",
+      "year": "March 2023 - Present",
+      "url": "",
+      "image": "",
+      "linkLabel": "",
+      "secondaryUrl": "",
+      "secondaryLabel": ""
+    },
+    {
+      "id": "agropremium",
+      "title": "Agropremium",
+      "description": "Startup Founder. Developed a web-based global trade platform to support fair-trade logistics through the African German Entrepreneurship Academy Startup Class.",
+      "venue": "University of Leipzig, Germany",
+      "year": "2023",
+      "url": "",
+      "image": "",
+      "linkLabel": "",
+      "secondaryUrl": "",
+      "secondaryLabel": ""
+    },
+    {
+      "id": "obstamed",
+      "title": "ObstaMed",
+      "description": "Startup Founder. Developed a smart, sensor-integrated assistive mobility cane to improve navigation autonomy for people with visual impairments. Presented the work at iN4iN 2025 in Leipzig.",
+      "venue": "University of Leipzig, Germany",
+      "year": "2025",
+      "url": "",
+      "image": "",
+      "linkLabel": "",
+      "secondaryUrl": "",
+      "secondaryLabel": ""
+    },
+    {
+      "id": "somax-venture",
+      "title": "Somax iQ-T1",
+      "description": "Developed a mobile AI ultrasound device for point-of-care thyroid diagnostics, built around HALO-UNet. The project received pre-seed funding and an NVIDIA Jetson Orin Nano challenge prize.",
+      "venue": "Medical AI & point-of-care diagnostics",
+      "year": "",
+      "url": "http://mysonotechnologies.com",
+      "image": "",
+      "linkLabel": "Visit site",
+      "secondaryUrl": "",
+      "secondaryLabel": ""
+    }
+  ],
+  "grants": [
+    {
+      "id": "somax-preseed",
+      "title": "Somax iQ-T1 — $8,000 pre-seed grant",
+      "description": "Awarded pre-seed funding for the mobile AI ultrasound project for point-of-care thyroid diagnostics.",
+      "venue": "Pre-seed funding",
+      "year": "",
+      "url": "",
+      "image": "",
+      "linkLabel": "",
+      "secondaryUrl": "",
+      "secondaryLabel": ""
+    },
+    {
+      "id": "agea-travel",
+      "title": "African German Entrepreneurship Academy — €15,000+ travel grant",
+      "description": "Supported participation in the Startup Class at the University of Leipzig, covering the Agropremium and ObstaMed entrepreneurship work.",
+      "venue": "University of Leipzig, Germany",
+      "year": "September 2023 - September 2025",
+      "url": "",
+      "image": "",
+      "linkLabel": "",
+      "secondaryUrl": "",
+      "secondaryLabel": ""
+    }
+  ],
+  "achievements": [
+    {
+      "id": "jetson-prize",
+      "title": "Mansa-to-Mansa NVIDIA Jetson Orin Nano project challenge",
+      "description": "Won the ultimate prize, an embedded system worth $300, for the Somax iQ-T1 project.",
+      "venue": "Project challenge award",
+      "year": "",
+      "url": "",
+      "image": "",
+      "linkLabel": "",
+      "secondaryUrl": "",
+      "secondaryLabel": ""
+    },
+    {
+      "id": "peerbooking-beta",
+      "title": "peerbooking — 1,000+ active beta users",
+      "description": "Built a campus peer learning marketplace with booking, scheduling, and chat. Reached 1,000+ active users during four weeks of beta testing across one campus.",
+      "venue": "Product traction",
+      "year": "",
+      "url": "https://pollix.online",
+      "image": "",
+      "linkLabel": "Visit site",
+      "secondaryUrl": "",
+      "secondaryLabel": ""
+    },
+    {
+      "id": "scitech-community",
+      "title": "BUILD SCITECH — 600+ community members",
+      "description": "Established a technology expo community connecting African student developers, founders, and employers.",
+      "venue": "Community building",
+      "year": "",
+      "url": "",
+      "image": "",
+      "linkLabel": "",
+      "secondaryUrl": "",
+      "secondaryLabel": ""
+    },
+    {
+      "id": "strata-open-source",
+      "title": "Strata — open-source TypeScript tooling",
+      "description": "Built a type-safe request pipeline with a dependency-graph scheduler, parallel execution, circular dependency detection, and Next.js integration.",
+      "venue": "Open-source engineering",
+      "year": "",
+      "url": "https://github.com/ransjnr/strata",
+      "image": "",
+      "linkLabel": "GitHub",
+      "secondaryUrl": "",
+      "secondaryLabel": ""
+    }
+  ]
+}

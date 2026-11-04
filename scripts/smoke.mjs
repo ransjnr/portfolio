@@ -1,0 +1,17 @@
+import {readFile} from 'node:fs/promises';import assert from 'node:assert/strict';
+const env=Object.fromEntries((await readFile('apps/cms/.env.local','utf8')).trim().split('\n').map(l=>l.split(/=(.*)/s).slice(0,2)));
+const cms='http://localhost:3001';
+assert.equal((await fetch(cms+'/api/content')).status,401);
+assert.equal((await fetch(cms+'/api/login',{method:'POST',headers:{Origin:'http://evil.invalid','Content-Type':'application/json'},body:JSON.stringify({password:env.CMS_PASSWORD})})).status,403);
+const login=await fetch(cms+'/api/login',{method:'POST',headers:{Origin:cms,'Content-Type':'application/json'},body:JSON.stringify({password:env.CMS_PASSWORD})});assert.equal(login.status,200);const cookie=login.headers.get('set-cookie').split(';')[0];
+const headers={Cookie:cookie,Origin:cms,'Content-Type':'application/json'};
+let response=await fetch(cms+'/api/content',{headers});assert.equal(response.status,200);const original=await response.json();const draft=structuredClone(original.draft);draft.profile.name='Draft workflow verification';
+assert.equal((await fetch(cms+'/api/content',{method:'PUT',headers,body:JSON.stringify(draft)})).status,200);
+assert.equal((await(await fetch('http://localhost:4000/v1/content')).json()).profile.name,original.published.profile.name);
+assert.equal((await fetch(cms+'/api/content',{method:'POST',headers})).status,200);
+assert.equal((await(await fetch('http://localhost:4000/v1/content')).json()).profile.name,draft.profile.name);
+await fetch(cms+'/api/content',{method:'PUT',headers,body:JSON.stringify(original.published)});await fetch(cms+'/api/content',{method:'POST',headers});
+if(JSON.stringify(original.draft)!==JSON.stringify(original.published))await fetch(cms+'/api/content',{method:'PUT',headers,body:JSON.stringify(original.draft)});
+const invalid=structuredClone(draft);invalid.profile.github='javascript:alert(1)';assert.equal((await fetch(cms+'/api/content',{method:'PUT',headers,body:JSON.stringify(invalid)})).status,400);
+assert.equal((await fetch('http://localhost:3000')).status,200);
+console.log('PASS: authentication, origin protection, draft isolation, publication, restoration, unsafe URL validation, public page.');
